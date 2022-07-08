@@ -1,0 +1,22 @@
+.top {
+    font-size:24px;
+}
+
+.top-left {
+    height:50px;
+    text-align: center;
+}
+.top-left a {
+    margin-left:3px;
+}
+
+.top-center {
+    text-align: center;
+}
+
+.top-right {
+    text-align: right;
+}
+.top-right .fa-shopping-bag{
+    margin-right: 10px;
+}

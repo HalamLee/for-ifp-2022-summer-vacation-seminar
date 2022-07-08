@@ -1,0 +1,11 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.content-wrapper {
+  padding: 30px;
+  width: 80%;
+  max-width: 960px;
+  margin: 0 auto;
+}
