@@ -14,18 +14,6 @@ h1 {
   font-size: 50px;
 }
 
-@media all and (min-width: 768px) and (max-width: 1023px) {
-  h1 {
-    font-size: 30px;
-  }
-}
-
-@media all and (max-width: 767px) {
-  h1 {
-    font-size: 20px;
-  }
-}
-
 .container {
   width: 400px;
   height: 400px;
@@ -62,4 +50,26 @@ a:not(:last-of-type) li {
 li:hover {
   background-color: rgb(72, 58, 155);
   color: white;
+}
+
+.notice {
+  display: none;
+}
+
+@media all and (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    font-size: 30px;
+  }
+  .notice {
+    display: block;
+  }
+}
+
+@media all and (max-width: 767px) {
+  h1 {
+    font-size: 20px;
+  }
+  .notice {
+    display: block;
+  }
 }
