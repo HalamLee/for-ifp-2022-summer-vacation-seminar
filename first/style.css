@@ -1,3 +1,49 @@
 body {
-  background-color: red;
+  margin: 0;
+  background-color: rgb(107, 191, 224);
+}
+article {
+  width: 300px;
+  height: 500px;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  margin: 105px auto;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  background: url('./img/Frozen-thick-snow-Cartoon-movie_1920x1440.jpg')
+    center/cover;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li:hover {
+  background-color: black;
+  color: white;
 }
